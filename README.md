@@ -8,7 +8,7 @@
 
 
 <p align="center">
-    <imr src=".github/preview.jpg">
+    <img src=".github/preview.jpg">
 </p>
 
 ## 🚀 Tecnologias
