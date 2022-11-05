@@ -1,0 +1,110 @@
+/* Aplicando reset no css padrão */
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* CENTRALIZANDO TODO NOSSO CONTEUDO */
+body {
+  background: #121212;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#app{
+  width: 350px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+header{
+  display: flex;
+  margin: 24px 24px;
+  
+  color: #121212;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+input{
+  width: 90%;
+  height: 40px;
+
+  background: #E5E5E5;
+  border-radius: 4px;
+}
+
+input::placeholder{
+  padding: 16px;
+}
+
+form button{
+  width: 90%;
+  height: 40px;
+
+  background-color: #121212;
+  border-radius: 4px;
+}
+
+form button span{
+  color: #ffffff;
+  font-weight: 400;
+  line-height: 19px;
+  font-size: 16px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.acess{
+  display: flex;
+  flex-direction: column;
+
+  gap: 14px;
+  margin: 70px 24px;
+}
+
+.acess span{
+  font-size: 14px;
+  color: #464646;
+  text-align: center;
+}
+
+.rede-social{
+  display: flex;
+  height: 30px;
+
+  align-items: center;
+  justify-content: left;
+
+  color: #ffffff;
+  font-size: 15px;
+
+  border-radius: 4px;
+  
+}
+
+.twitter{
+  background: #56A7F2;
+  padding: 16px;
+}
+
+.facebook{
+  background: #1E3C72;
+  padding: 16px;
+}
