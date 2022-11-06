@@ -50,6 +50,7 @@ input{
 
 input::placeholder{
   padding: 16px;
+  font-size: 15px;
 }
 
 form button{
